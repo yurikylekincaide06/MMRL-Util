@@ -51,7 +51,26 @@ The URL to the icon image of the project, which should be squared and no larger 
 Example:
 
 ```yaml
-icon: "https://example.com/icon.png"
+icon: "https://example.com/icon.png"mmrl-util --help
+usage: mmrl-util [-h] [-v] [
+-V] command ...
+
+Magisk Modules Repo Util
+
+positional arguments:
+  command
+    config            Modify config of repository.
+    track             Module tracks utility.
+    github            Generate tracks from GitHub.
+    sync              Sync modules in repository.
+    index             Generate modules.json from local.
+    check             Content check and migrate.
+    sitemap           Sitemap generator.
+
+options: you 
+  -h, --help          Show this help message and exit.
+  -v, --version       Show util version and exit.
+  -V, --version-code  Show util version code and exit.
 ```
 
 ### license
